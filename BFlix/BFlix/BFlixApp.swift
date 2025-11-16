@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import XcodebuildNvimPreview
 
 @main
 struct BFlixApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView().setupNvimPreview(view: { HomeView() })
         }
     }
 }

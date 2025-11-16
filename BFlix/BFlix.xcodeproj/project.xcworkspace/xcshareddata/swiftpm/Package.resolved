@@ -1,0 +1,24 @@
+{
+  "originHash" : "08fdd6ec0cad47820dac0a83ed7da6283f8ed628dff20528f3e18e0ad8e35b56",
+  "pins" : [
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser.git",
+      "state" : {
+        "revision" : "cdd0ef3755280949551dc26dee5de9ddeda89f54",
+        "version" : "1.6.2"
+      }
+    },
+    {
+      "identity" : "xcodebuild-nvim-preview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wojciech-kulik/xcodebuild-nvim-preview.git",
+      "state" : {
+        "revision" : "863260fe5fa0177807f4afda92aacc278dfc3ff1",
+        "version" : "1.0.11"
+      }
+    }
+  ],
+  "version" : 3
+}

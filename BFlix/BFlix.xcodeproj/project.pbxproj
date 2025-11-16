@@ -6,12 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		235ED6FC2EC9EEB7001DB9BD /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 235ED6FB2EC9EEB7001DB9BD /* ArgumentParser */; };
+		235ED7052ECA070D001DB9BD /* XcodebuildNvimPreview in Frameworks */ = {isa = PBXBuildFile; productRef = 235ED7042ECA070D001DB9BD /* XcodebuildNvimPreview */; };
+		985B868A377D564E7064546B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9EDAB4BB1A8DD70D902B3B /* ContentView.swift */; };
+		F885796C2CDE43028070A1BD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC34C81B618CB8A7C91FB59 /* Constants.swift */; };
+		FC17E658824B45BDF8EA6AAE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B143798D71DF81F56CAB1B /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		235ED6CE2EC9E76A001DB9BD /* BFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		235ED6EC2EC9EEAB001DB9BD /* BFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B143798D71DF81F56CAB1B /* HomeView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AE9EDAB4BB1A8DD70D902B3B /* ContentView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BEC34C81B618CB8A7C91FB59 /* Constants.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		235ED6D02EC9E76A001DB9BD /* BFlix */ = {
+		235ED6EE2EC9EEAB001DB9BD /* BFlix */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BFlix;
 			sourceTree = "<group>";
@@ -19,93 +30,112 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		235ED6CB2EC9E76A001DB9BD /* Frameworks */ = {
+		235ED6E92EC9EEAB001DB9BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				235ED7052ECA070D001DB9BD /* XcodebuildNvimPreview in Frameworks */,
+				235ED6FC2EC9EEB7001DB9BD /* ArgumentParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		235ED6C52EC9E76A001DB9BD = {
+		235ED6E32EC9EEAB001DB9BD = {
 			isa = PBXGroup;
 			children = (
-				235ED6D02EC9E76A001DB9BD /* BFlix */,
-				235ED6CF2EC9E76A001DB9BD /* Products */,
+				235ED6EE2EC9EEAB001DB9BD /* BFlix */,
+				235ED6ED2EC9EEAB001DB9BD /* Products */,
+				B5F555FF074A0CDB1893DA33 /* BFlix */,
 			);
 			sourceTree = "<group>";
 		};
-		235ED6CF2EC9E76A001DB9BD /* Products */ = {
+		235ED6ED2EC9EEAB001DB9BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				235ED6CE2EC9E76A001DB9BD /* BFlix.app */,
+				235ED6EC2EC9EEAB001DB9BD /* BFlix.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F555FF074A0CDB1893DA33 /* BFlix */ = {
+			isa = PBXGroup;
+			children = (
+				AE9EDAB4BB1A8DD70D902B3B /* ContentView.swift */,
+				BEC34C81B618CB8A7C91FB59 /* Constants.swift */,
+				81B143798D71DF81F56CAB1B /* HomeView.swift */,
+			);
+			path = BFlix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		235ED6CD2EC9E76A001DB9BD /* BFlix */ = {
+		235ED6EB2EC9EEAB001DB9BD /* BFlix */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 235ED6D92EC9E76C001DB9BD /* Build configuration list for PBXNativeTarget "BFlix" */;
+			buildConfigurationList = 235ED6F72EC9EEAC001DB9BD /* Build configuration list for PBXNativeTarget "BFlix" */;
 			buildPhases = (
-				235ED6CA2EC9E76A001DB9BD /* Sources */,
-				235ED6CB2EC9E76A001DB9BD /* Frameworks */,
-				235ED6CC2EC9E76A001DB9BD /* Resources */,
+				235ED6E82EC9EEAB001DB9BD /* Sources */,
+				235ED6E92EC9EEAB001DB9BD /* Frameworks */,
+				235ED6EA2EC9EEAB001DB9BD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				235ED6D02EC9E76A001DB9BD /* BFlix */,
+				235ED6EE2EC9EEAB001DB9BD /* BFlix */,
 			);
 			name = BFlix;
 			packageProductDependencies = (
+				235ED6FB2EC9EEB7001DB9BD /* ArgumentParser */,
+				235ED7042ECA070D001DB9BD /* XcodebuildNvimPreview */,
 			);
 			productName = BFlix;
-			productReference = 235ED6CE2EC9E76A001DB9BD /* BFlix.app */;
+			productReference = 235ED6EC2EC9EEAB001DB9BD /* BFlix.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		235ED6C62EC9E76A001DB9BD /* Project object */ = {
+		235ED6E42EC9EEAB001DB9BD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2610;
 				LastUpgradeCheck = 2610;
 				TargetAttributes = {
-					235ED6CD2EC9E76A001DB9BD = {
+					235ED6EB2EC9EEAB001DB9BD = {
 						CreatedOnToolsVersion = 26.1.1;
 					};
 				};
 			};
-			buildConfigurationList = 235ED6C92EC9E76A001DB9BD /* Build configuration list for PBXProject "BFlix" */;
+			buildConfigurationList = 235ED6E72EC9EEAB001DB9BD /* Build configuration list for PBXProject "BFlix" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 235ED6C52EC9E76A001DB9BD;
+			mainGroup = 235ED6E32EC9EEAB001DB9BD;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				235ED6FA2EC9EEB7001DB9BD /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+				235ED7032ECA070D001DB9BD /* XCRemoteSwiftPackageReference "xcodebuild-nvim-preview" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 235ED6CF2EC9E76A001DB9BD /* Products */;
+			productRefGroup = 235ED6ED2EC9EEAB001DB9BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				235ED6CD2EC9E76A001DB9BD /* BFlix */,
+				235ED6EB2EC9EEAB001DB9BD /* BFlix */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		235ED6CC2EC9E76A001DB9BD /* Resources */ = {
+		235ED6EA2EC9EEAB001DB9BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,17 +145,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		235ED6CA2EC9E76A001DB9BD /* Sources */ = {
+		235ED6E82EC9EEAB001DB9BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985B868A377D564E7064546B /* ContentView.swift in Sources */,
+				F885796C2CDE43028070A1BD /* Constants.swift in Sources */,
+				FC17E658824B45BDF8EA6AAE /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		235ED6D72EC9E76C001DB9BD /* Debug */ = {
+		235ED6F52EC9EEAC001DB9BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +222,7 @@
 			};
 			name = Debug;
 		};
-		235ED6D82EC9E76C001DB9BD /* Release */ = {
+		235ED6F62EC9EEAC001DB9BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,7 +279,7 @@
 			};
 			name = Release;
 		};
-		235ED6DA2EC9E76C001DB9BD /* Debug */ = {
+		235ED6F82EC9EEAC001DB9BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -278,7 +311,7 @@
 			};
 			name = Debug;
 		};
-		235ED6DB2EC9E76C001DB9BD /* Release */ = {
+		235ED6F92EC9EEAC001DB9BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -313,25 +346,57 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		235ED6C92EC9E76A001DB9BD /* Build configuration list for PBXProject "BFlix" */ = {
+		235ED6E72EC9EEAB001DB9BD /* Build configuration list for PBXProject "BFlix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				235ED6D72EC9E76C001DB9BD /* Debug */,
-				235ED6D82EC9E76C001DB9BD /* Release */,
+				235ED6F52EC9EEAC001DB9BD /* Debug */,
+				235ED6F62EC9EEAC001DB9BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		235ED6D92EC9E76C001DB9BD /* Build configuration list for PBXNativeTarget "BFlix" */ = {
+		235ED6F72EC9EEAC001DB9BD /* Build configuration list for PBXNativeTarget "BFlix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				235ED6DA2EC9E76C001DB9BD /* Debug */,
-				235ED6DB2EC9E76C001DB9BD /* Release */,
+				235ED6F82EC9EEAC001DB9BD /* Debug */,
+				235ED6F92EC9EEAC001DB9BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		235ED6FA2EC9EEB7001DB9BD /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.2;
+			};
+		};
+		235ED7032ECA070D001DB9BD /* XCRemoteSwiftPackageReference "xcodebuild-nvim-preview" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wojciech-kulik/xcodebuild-nvim-preview.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		235ED6FB2EC9EEB7001DB9BD /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 235ED6FA2EC9EEB7001DB9BD /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+		235ED7042ECA070D001DB9BD /* XcodebuildNvimPreview */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 235ED7032ECA070D001DB9BD /* XCRemoteSwiftPackageReference "xcodebuild-nvim-preview" */;
+			productName = XcodebuildNvimPreview;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 235ED6C62EC9E76A001DB9BD /* Project object */;
+	rootObject = 235ED6E42EC9EEAB001DB9BD /* Project object */;
 }

@@ -1,0 +1,32 @@
+# macOS system files
+.DS_Store
+
+# Xcode & Swift build artifacts
+/.build
+/DerivedData/
+/xcuserdata/
+/*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+*.xcodeproj/*
+*.xcworkspace/*
+
+# SwiftPM
+/Packages
+.swiftpm/
+/.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# User credentials & config
+.netrc
+
+# Editor/IDE settings
+.vscode/
+.idea/
+.nvim/
+*.swp
+*.swo
+
+# Logs
+*.log
+
