@@ -10,11 +10,13 @@
 		235ED6FC2EC9EEB7001DB9BD /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 235ED6FB2EC9EEB7001DB9BD /* ArgumentParser */; };
 		235ED7052ECA070D001DB9BD /* XcodebuildNvimPreview in Frameworks */ = {isa = PBXBuildFile; productRef = 235ED7042ECA070D001DB9BD /* XcodebuildNvimPreview */; };
 		985B868A377D564E7064546B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9EDAB4BB1A8DD70D902B3B /* ContentView.swift */; };
+		AAD5F6B017FB179B21BAC9D4 /* HorizontalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18879FB11C9232F8C8A34EDD /* HorizontalListView.swift */; };
 		F885796C2CDE43028070A1BD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC34C81B618CB8A7C91FB59 /* Constants.swift */; };
 		FC17E658824B45BDF8EA6AAE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B143798D71DF81F56CAB1B /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18879FB11C9232F8C8A34EDD /* HorizontalListView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; lastKnownFileType = sourcecode.swift; name = HorizontalListView.swift; path = HorizontalListView.swift; sourceTree = "<group>"; };
 		235ED6EC2EC9EEAB001DB9BD /* BFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B143798D71DF81F56CAB1B /* HomeView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AE9EDAB4BB1A8DD70D902B3B /* ContentView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				AE9EDAB4BB1A8DD70D902B3B /* ContentView.swift */,
 				BEC34C81B618CB8A7C91FB59 /* Constants.swift */,
 				81B143798D71DF81F56CAB1B /* HomeView.swift */,
+				18879FB11C9232F8C8A34EDD /* HorizontalListView.swift */,
 			);
 			path = BFlix;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				985B868A377D564E7064546B /* ContentView.swift in Sources */,
 				F885796C2CDE43028070A1BD /* Constants.swift in Sources */,
 				FC17E658824B45BDF8EA6AAE /* HomeView.swift in Sources */,
+				AAD5F6B017FB179B21BAC9D4 /* HorizontalListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

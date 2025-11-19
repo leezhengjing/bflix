@@ -5,8 +5,7 @@ struct HomeView: View {
 
     var body: some View {
         VStack {
-            AsyncImage(url: URL(string: heroTestTitle)) {
-                image in
+            AsyncImage(url: URL(string: heroTestTitle)) { image in
                 image.resizable().scaledToFit()
             } placeholder: {
                 ProgressView()

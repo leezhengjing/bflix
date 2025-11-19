@@ -12,7 +12,8 @@ import XcodebuildNvimPreview
 struct BFlixApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView().setupNvimPreview(view: { HomeView() })
+            HomeView()
+                .setupNvimPreview { HorizontalListView() }
         }
     }
 }
